@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex" />
+  <meta name='keywords' content='Snkoing food, Smokepins,Stores, Retailers, Easy, Quick'>
+  <meta name='description'
+    content='A page where you can easily find any store that is selling Smokepins and all stuff to smoking your food'>
+  <link rel="stylesheet" href="https://use.typekit.net/dcn1ymp.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+  <title>Find-store</title>
+  <link rel="stylesheet" href="../SASS/Styles_nav/styles_nav.css">
+  <script src=' https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js'> </script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../CSS/findstorestyle.css">
+</head>
+<style>
+  footer {
+    position: absolute;
+    margin-top: 1500px;
+  }
+
+  @media only screen and (max-width : 1024px) {
+    footer {
+      margin-top: 1750px;
+    }
+  }
+</style>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <span> <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </span>
+
+      <a href="../index.html">
+        <img src="../Media/Images/Logo_Smokepins.png" alt="">
+      </a>
+      <a href=""><i class="fas fa-shopping-cart"></i></a>
+      <nav>
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="our_story.html">Our story</a></li>
+          <li><a href="discover.html">Discover</a>
+            <ul>
+              <li><a href="discover.html">Guides</a></li>
+              <li><a href="discover.html">Recipes</a></li>
+              <li><a href="discover.html">News</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="icons_nav">
+        <a href="find_store.html"><i class="fas fa-map-marker-alt"></i>
+          <p> Find store</p>
+        </a>
+        <a href="shopping_cart.html"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+
+      <div id="slider">
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="our_story.html">Our story</a></li>
+          <li><a href="discover.html">Discover</a>
+            <ul>
+              <li><a href="discover.html">Guides</a></li>
+              <li><a href="discover.html">Recipes</a></li>
+              <li><a href="discover.html">News</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="find_store.html">Find store</a></li>
+          <li><a href="shopping_cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="discoverhead">
+      <h1>-&nbsp; Retailers &nbsp;-</h1>
+    </div>
+    <div id="discoverp">
+      <p>Find a store near you on the map below. Click the marker for more information.</p>
+    </div>
+    <div id="map">
+    </div>
+    <div id="storelistwrapper">
+      <table>
+        <tr>
+          <th>Retailer</th>
+          <th>Website</th>
+        </tr>
+        <tr>
+          <td>Gastrogear - Hillerød</td>
+          <td>www.gastrogear.dk</td>
+        </tr>
+        <tr>
+          <td>Gedser Røgeri - Gedser</td>
+          <td>www.gedser-roegeri.dk</td>
+        </tr>
+        <tr>
+          <td>Gour-meat - Nørager</td>
+          <td>www.gour-meat.dk</td>
+        </tr>
+        <tr>
+          <td>Havnens Fiskehus - Aarhus</td>
+          <td>www.hf-aarhus.dk</td>
+        </tr>
+        <tr>
+          <td>Hvidovre Sport</td>
+          <td>www.hvidovresport.dk</td>
+        </tr>
+        <tr>
+          <td>Jan’s Lystfiskershop - Østerbro</td>
+          <td>www.janslystfiskershop.dk</td>
+        </tr>
+        <tr>
+          <td>Kott Fritid - Hvide Sande</td>
+          <td>www.kottfritid.dk</td>
+        </tr>
+        <tr>
+          <td>Marinexperten - Frederikshavn</td>
+          <td>www.marinexperten.dk</td>
+        </tr>
+        <tr>
+          <td>MB Jagt og Fiskeri - Hobro</td>
+          <td>www.mbjagt.dk</td>
+        </tr>
+        <tr>
+          <td>Netnaturshop - Hjallerup</td>
+          <td>www.netnaturshop.dk</td>
+        </tr>
+        <tr>
+          <td>Pigen på Stigen - Aarhus</td>
+          <td>www.pigenpaastigen.dk</td>
+        </tr>
+        <tr>
+          <td>Arctic Fritid - Norway</td>
+          <td>www.arctic-fritid.no</td>
+        </tr>
+        <tr>
+          <td>BarbIQ - Norway</td>
+          <td>www.barbiq.no</td>
+        </tr>
+        <tr>
+          <td>Scanholm - Norway</td>
+          <td>www.scanholm.no</td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <div class="footerp1">
+        <a href=""><img src="../Media/Images/BIG_LOGO.png" alt="" class="biglogo"></a>
+        <div class="contactus">
+          <h3>Follow us:</h3>
+          <div class="followicons">
+            <i class="fab fa-facebook-square fa-2x"></i>
+            <i class="fab fa-youtube fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+          </div>
+          <br>
+          <h3>Contact us:</h3>
+          <ul>Skandinavisk Røgsystem</ul>
+          <ul>Tornhøjvej 92</ul>
+          <ul>8260 Viby J</ul>
+          <ul>Denmark</ul>
+          <ul>Email: support@smokepins.com</ul>
+          <ul>Tlf: +45 21 99 03 04</ul>
+        </div>
+      </div>
+      <div class="footerp2">
+        <div class="footer 1">
+          <h3>Smokepins</h3>
+          <a href="">Shop</a>
+          <a href="">Find a Store</a>
+          <a href="">Discover</a>
+          <a href="">Our Story</a>
+          <a href="">Newsletter</a>
+          <a href="">Work at Smokepins</a>
+          <a href="">Smokepins International</a>
+        </div>
+        <div class="footer 2">
+          <h3>Support</h3>
+          <a href="">User Tutorials</a>
+          <a href="">FAQS</a>
+          <a href="">Delivery Times</a>
+          <a href="">Service and Warranty</a>
+          <a href="">Support Center</a>
+        </div>
+        <div class="footer 3">
+          <h3>Policies</h3>
+          <a href="">Terms of Use</a>
+          <a href="">Terms of Sale</a>
+          <a href="">Payment Methods</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Cookies</a>
+          <a href="">GDPR</a>
+          <a href="">Trademarks</a>
+          <a href="">Accessibility</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    mapboxgl.accessToken =
+      'pk.eyJ1Ijoib2xpdmVyZG90Y29tIiwiYSI6ImNrN2QxNnQ1dzBzZGoza21yczZ5ZGZ3cHQifQ.VB7QxYT6bR1uh62fhva2Dw'; // replace this with your access token
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/oliverdotcom/ckaar0fkf0ikl1iqq6iyly6ls', // replace this with your style URL
+      center: [10.196, 56.150],
+      zoom: 10.7
+    });
+    // code from the next step will go here
+    map.on('click', function (e) {
+      var features = map.queryRenderedFeatures(e.point, {
+        layers: ['smokepins-retailers-tile'] // replace this with the name of the layer
+      });
+
+      if (!features.length) {
+        return;
+      }
+
+      var feature = features[0];
+
+      var popup = new mapboxgl.Popup({
+          offset: [0, -15]
+        })
+        .setLngLat(feature.geometry.coordinates)
+        .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.desc + '</p>')
+        .addTo(map);
+    });
+  </script>
+  <script src="../Js/scripts_nav.js"></script>
+</body>
+
+</html>

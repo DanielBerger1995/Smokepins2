@@ -1,0 +1,135 @@
+body {
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --Discover navigation-- */
+#discoverhead {
+    width: 100%;
+    margin: 12vh 0 2% 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #36454F;
+}
+
+#discoverhead h1 {
+    font-family: active;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#discoverp {
+    width: 70%;
+    display: flex;
+    margin: 0 15%;
+    justify-content: center;
+    text-align: center;
+    color: #36454F;
+    font-family: poppins, sans-serif;
+}
+
+
+/* ------------------------ */
+/* -- Content start here -- */
+/* ------------------------ */
+
+#article_container {
+    margin: 0 10%;
+    padding: 0;
+    width: 80%;
+    color: #36454F;
+    padding-bottom: 70px;
+}
+
+.article_image {
+    width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.8em;
+}
+
+sup {
+    font-size: 0.6em;
+}
+
+.intro p:nth-of-type(1) {
+    float: right;
+    font-size: 0.6em;
+}
+
+.intro p:nth-of-type(2) {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.intro p:nth-of-type(3) {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.heading {
+    margin: 25px 0 10px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.bodytext {
+    font-size: 0.9em;
+    font-weight: 100;
+    line-height: 1.8em;
+}
+
+
+
+/* ------------ Media Queries ------------ */
+/* For mobile size */
+
+@media only screen and (max-width : 1024px) {
+    h2 {
+        font-size: 1.5em;
+        padding-top: 20px;
+        line-height: 1em;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    sup {
+        font-size: 0.4em;
+    }
+
+    .intro p:nth-of-type(1) {
+        font-size: 0.5em;
+    }
+
+    .intro p:nth-of-type(2),
+    .intro p:nth-of-type(3) {
+        font-size: 0.8em;
+    }
+
+    .heading {
+        font-size: 1.2em;
+    }
+
+    .bodytext {
+        font-size: 0.8em;
+    }
+}
